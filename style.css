@@ -1,0 +1,74 @@
+body {
+    color: #DAD6D6;
+    font-family: digital-7;
+    text-align: center;  
+    background-color: #171A21;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2{
+    color: rgb(219, 58, 85);
+    font-size: -webkit-xxx-large;
+    margin-top: 125px;
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+}
+h1 {
+    color: white;
+    font-size: 46px;
+    letter-spacing: 2px;
+    margin: 20px 0 0 ;
+}
+#start_btn {
+    font-family: 'Lobster', cursive;
+    margin: 20px auto;
+    font-size: 25px;
+    text-align: center;
+    color: #DAD6D6;
+    background: #48633B;
+    border:solid 2px #35492C;
+    border-radius:5px;
+    padding:16px 40px 16px;
+    letter-spacing: 2px;
+}
+#start_btn:hover {
+    background: rgb(36, 56, 26);
+    cursor:pointer;
+    outline: none;
+}
+#stop_btn{
+    font-family: 'Lobster', cursive;
+    margin: 20px auto;
+    font-size: 25px;
+    text-align: center;
+    color: #DAD6D6;
+    background: #564E58;
+    border:solid 2px #3E383F;
+    border-radius:5px;
+    padding:16px 40px 16px;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+#stop_btn:hover {
+    background: rgb(58, 51, 59);
+    cursor:pointer;
+    outline: none;
+}
+#reset_btn {
+    font-family: 'Lobster', cursive;
+    margin: 18px 0;
+    font-size: 25px;
+    text-align: center;
+    color: #DAD6D6;
+    background: #721329;
+    border:solid 2px #590F20;
+    border-radius:5px;
+    padding:16px 40px 16px;
+    letter-spacing: 2px;
+}
+#reset_btn:hover {
+    background: #6d061e;
+    cursor:pointer;
+    outline: none;
+}
