@@ -1,7 +1,11 @@
 body {
     color: #DAD6D6;
+    font-family: digital-7;
     text-align: center;  
     background-color: #171A21;
+    background-image: url(images/clock1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h2{
     color: rgb(219, 58, 85);

@@ -32,5 +32,5 @@ function clearAll() {
     minutes = 0;
     seconds = 0;
     document.querySelector("h1").innerHTML = hours + ":" + minutes + ":" + seconds;
-    stopCount();
+    stop();
 }
