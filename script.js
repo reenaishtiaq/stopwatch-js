@@ -7,13 +7,13 @@ let time;
 function updateTime() {
     seconds++;
     if (seconds === 60) {
-        seconds = 0;
+        seconds = 00;
         minutes++
         if (minutes === 60) {
             hours++;
         }
     }
-    document.querySelector("h1").innerHTML = hours + ":" + minutes + ":" + seconds;
+    document.querySelector("h1").innerHTML = "0" + hours + " : 0" + minutes + " : 0" + seconds;
 }
 
 // start
@@ -28,9 +28,9 @@ function stopCount() {
 
 // reset all 
 function clearAll() {
-    hours = 0;
-    minutes = 0;
-    seconds = 0;
-    document.querySelector("h1").innerHTML = hours + ":" + minutes + ":" + seconds;
+    hours = 00;
+    minutes = 00;
+    seconds = 00;
+    document.querySelector("h1").innerHTML = "00 : 00 : 00";
     stopCount();
 }
